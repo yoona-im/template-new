@@ -1,20 +1,54 @@
 {
   "id": "app1",
-  "name": "示例应用",
+  "name": "测试应用",
   "icon": "zmdi zmdi-storage",
   "items": [
     {
-      "id": "demo",
-      "name": "单文件Vue示例",
+      "id": "menu1",
+      "name": "示例",
       "icon": "zmdi zmdi-cloud-box bgm-gray",
       "platform": 1023,
-      "url": "front/views/demo/testModule.js",
-      "properties": {
-        "moduleType": "iife",
-        "moduleName": "front.views.demo.testModule",
-        "loader": "vue2",
-        "particle": "module"
-      }
+      "items": [
+        {
+          "id": "vueComp1",
+          "name": "单文件Vue示例",
+          "icon": "zmdi zmdi-cloud-box bgm-gray",
+          "platform": 1023,
+          "url": "front/views/demo/testModule.js",
+          "properties": {
+            "moduleType": "iife",
+            "moduleName": "com.bsoft.mpiviews.front.views.demo.testModule",
+            "loader": "vue2",
+            "particle": "module"
+          }
+        },
+        {
+          "id": "example1",
+          "name": "示例页面1",
+          "icon": "zmdi zmdi-cloud-box bgm-gray",
+          "platform": 1023,
+          "url": "front/views/demo/example1.js",
+          "properties": {
+            "moduleType": "iife",
+            "moduleName": "com.bsoft.mpiviews.front.views.demo.example1",
+            "loader": "vue2",
+            "particle": "module"
+          }
+        },
+        {
+          "id": "example2",
+          "name": "示例页面2",
+          "icon": "zmdi zmdi-cloud-box bgm-gray",
+          "platform": 1023,
+          "url": "front/views/demo/example2.js",
+          "properties": {
+            "moduleType": "iife",
+            "moduleName": "com.bsoft.mpiviews.front.views.demo.example2",
+            "loader": "vue2",
+            "particle": "module"
+          }
+        }
+      ]
     }
   ]
 }
